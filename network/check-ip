@@ -1,0 +1,2 @@
+#!/bin/bash
+exec 3<>/dev/tcp/ifconfig.me/80;echo -e "GET /ip HTTP/1.1\r\nHost: ifconfig.me\r\nAccept: */* \r\nConnection: close\r\n\r\n">&3;tail -n1<&3
