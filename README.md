@@ -2,4 +2,4 @@
 
 
 - network/check-ip
-  [[Return external ip address using pure bash script]]
+  [Return external ip address using pure bash script]
